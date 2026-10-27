@@ -1,0 +1,87 @@
+body {
+    color: #111;
+    background: #fff8dc;
+}
+
+.uf-contact-form-02 {
+    max-width: 900px;
+}
+
+@media (min-width: 576px) {
+    .uf-contact-form-02 {
+        min-height: 100vh;
+        align-content: center;
+    }
+}
+
+.uf-contact-form-02-body {
+    border: 2px solid #111;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .uf-contact-form-02-body:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #ffb320;
+        left: 20px;
+        top: -20px;
+        z-index: -1;
+    }
+}
+
+.uf-img-contact-form-02 {
+    max-width: 100%;
+    animation: uf-animation 4s ease-in-out 1s infinite alternate;
+    position: relative;
+}
+
+.uf-ct-02-text-primary {
+    color: #ffb31f;
+}
+
+.uf-ct-02-bg-primary {
+    background-color: #ffb31f;
+}
+
+.uf-ct-02-btn-primary {
+    background-color: #ffb31f;
+    color: #111;
+    border: 2px solid #111;
+    border-radius: 0;
+}
+
+.uf-ct-02-btn-primary:hover {
+    background-color: #111;
+    color: #fff;
+    border: 2px solid #111;
+}
+
+@keyframes uf-animation {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: -30px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+.form-control {
+    border: 2px solid #111;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    border-color: #ffb31f;
+    box-shadow: 0 0 0 .25rem #ffb31f36;
+}
+
+

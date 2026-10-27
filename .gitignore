@@ -1,0 +1,19 @@
+# Java compiled files
+*.class
+
+# Build output
+build/
+target/
+bin/
+out/
+
+# IDE files
+.idea/
+*.iml
+
+# Temporary files
+*.log
+*.tmp
+
+# Environment secrets
+.env
